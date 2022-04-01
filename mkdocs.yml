@@ -27,5 +27,5 @@ nav:
 #  - Home: home.md
   - Index: index.md
   - About: about.md
-site_url: https://my-org.github.io/my-datamodel/
-repo_url: https://github.com/my-org/my-datamodel/
+site_url: https://linkml.github.io/linkml-schemaorg/
+repo_url: https://github.com/linkml/linkml-schemaorg/
