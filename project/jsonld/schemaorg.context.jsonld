@@ -1,0 +1,3152 @@
+{
+   "_comments": "Auto generated from schemaorg.yaml by jsonldcontextgen.py version: 0.1.1\n    Generation date: 2022-04-01T13:24:41\n    Schema: schema-org\n    metamodel version: 1.7.0\n    model version: None\n    \n    id: http://w3id.og/linkml/schemaorg\n    description: LinkML rendering of schema.org\n    license: https://creativecommons.org/publicdomain/zero/1.0/\n    ",
+   "@context": {
+      "linkml": "https://w3id.org/linkml/",
+      "linkml_so": "https://w3id.org/linkml/schemaorg/",
+      "ns1": "http://example.org/UNKNOWN/ns1/",
+      "rdf": "http://example.org/UNKNOWN/rdf/",
+      "schema": "http://schema.org/",
+      "@vocab": "http://schema.org/",
+      "about": {
+         "@type": "@id"
+      },
+      "abridged": {
+         "@type": "@id"
+      },
+      "abstract": {
+         "@type": "@id"
+      },
+      "accelerationTime": {
+         "@type": "@id"
+      },
+      "acceptedOffer": {
+         "@type": "@id"
+      },
+      "accessCode": {
+         "@type": "@id"
+      },
+      "accessibilityAPI": {
+         "@type": "@id"
+      },
+      "accessibilityControl": {
+         "@type": "@id"
+      },
+      "accessibilityFeature": {
+         "@type": "@id"
+      },
+      "accessibilityHazard": {
+         "@type": "@id"
+      },
+      "accessibilitySummary": {
+         "@type": "@id"
+      },
+      "accessMode": {
+         "@type": "@id"
+      },
+      "accessModeSufficient": {
+         "@type": "@id"
+      },
+      "accommodationCategory": {
+         "@type": "@id"
+      },
+      "accommodationFloorPlan": {
+         "@type": "@id"
+      },
+      "accountablePerson": {
+         "@type": "@id"
+      },
+      "accountId": {
+         "@type": "@id"
+      },
+      "accountMinimumInflow": {
+         "@type": "@id"
+      },
+      "accountOverdraftLimit": {
+         "@type": "@id"
+      },
+      "acrissCode": {
+         "@type": "@id"
+      },
+      "actionAccessibilityRequirement": {
+         "@type": "@id"
+      },
+      "actionApplication": {
+         "@type": "@id"
+      },
+      "actionOption": {
+         "@type": "@id"
+      },
+      "actionStatus": {
+         "@type": "@id"
+      },
+      "activeIngredient": {
+         "@type": "@id"
+      },
+      "actor": {
+         "@type": "@id"
+      },
+      "actors": {
+         "@type": "@id"
+      },
+      "additionalName": {
+         "@type": "@id"
+      },
+      "additionalNumberOfGuests": {
+         "@type": "@id"
+      },
+      "additionalProperty": {
+         "@type": "@id"
+      },
+      "additionalType": {
+         "@type": "@id"
+      },
+      "additionalVariable": {
+         "@type": "@id"
+      },
+      "addOn": {
+         "@type": "@id"
+      },
+      "addressLocality": {
+         "@type": "@id"
+      },
+      "addressRegion": {
+         "@type": "@id"
+      },
+      "administrationRoute": {
+         "@type": "@id"
+      },
+      "advanceBookingRequirement": {
+         "@type": "@id"
+      },
+      "adverseOutcome": {
+         "@type": "@id"
+      },
+      "affectedBy": {
+         "@type": "@id"
+      },
+      "affiliation": {
+         "@type": "@id"
+      },
+      "aggregateRating": {
+         "@type": "@id"
+      },
+      "album": {
+         "@type": "@id"
+      },
+      "albumProductionType": {
+         "@type": "@id"
+      },
+      "albumRelease": {
+         "@type": "@id"
+      },
+      "albumReleaseType": {
+         "@type": "@id"
+      },
+      "albums": {
+         "@type": "@id"
+      },
+      "alcoholWarning": {
+         "@type": "@id"
+      },
+      "algorithm": {
+         "@type": "@id"
+      },
+      "alignmentType": {
+         "@type": "@id"
+      },
+      "alternateName": {
+         "@type": "@id"
+      },
+      "alternativeHeadline": {
+         "@type": "@id"
+      },
+      "alternativeOf": {
+         "@type": "@id"
+      },
+      "alumni": {
+         "@type": "@id"
+      },
+      "amenityFeature": {
+         "@type": "@id"
+      },
+      "amountOfThisGood": {
+         "@type": "@id"
+      },
+      "announcementLocation": {
+         "@type": "@id"
+      },
+      "answerCount": {
+         "@type": "@id"
+      },
+      "antagonist": {
+         "@type": "@id"
+      },
+      "appearance": {
+         "@type": "@id"
+      },
+      "applicableLocation": {
+         "@type": "@id"
+      },
+      "applicantLocationRequirements": {
+         "@type": "@id"
+      },
+      "application": {
+         "@type": "@id"
+      },
+      "applicationContact": {
+         "@type": "@id"
+      },
+      "applicationDeadline": {
+         "@type": "@id"
+      },
+      "applicationStartDate": {
+         "@type": "@id"
+      },
+      "applicationSuite": {
+         "@type": "@id"
+      },
+      "appliesToDeliveryMethod": {
+         "@type": "@id"
+      },
+      "appliesToPaymentMethod": {
+         "@type": "@id"
+      },
+      "archiveHeld": {
+         "@type": "@id"
+      },
+      "area": {
+         "@type": "@id"
+      },
+      "arrivalAirport": {
+         "@type": "@id"
+      },
+      "arrivalBoatTerminal": {
+         "@type": "@id"
+      },
+      "arrivalGate": {
+         "@type": "@id"
+      },
+      "arrivalPlatform": {
+         "@type": "@id"
+      },
+      "arrivalStation": {
+         "@type": "@id"
+      },
+      "arrivalTerminal": {
+         "@type": "@id"
+      },
+      "arterialBranch": {
+         "@type": "@id"
+      },
+      "articleBody": {
+         "@type": "@id"
+      },
+      "articleSection": {
+         "@type": "@id"
+      },
+      "artist": {
+         "@type": "@id"
+      },
+      "aspect": {
+         "@type": "@id"
+      },
+      "assembly": {
+         "@type": "@id"
+      },
+      "assemblyVersion": {
+         "@type": "@id"
+      },
+      "associatedArticle": {
+         "@type": "@id"
+      },
+      "associatedClaimReview": {
+         "@type": "@id"
+      },
+      "associatedMedia": {
+         "@type": "@id"
+      },
+      "associatedMediaReview": {
+         "@type": "@id"
+      },
+      "associatedPathophysiology": {
+         "@type": "@id"
+      },
+      "associatedReview": {
+         "@type": "@id"
+      },
+      "athlete": {
+         "@type": "@id"
+      },
+      "audience": {
+         "@type": "@id"
+      },
+      "audienceType": {
+         "@type": "@id"
+      },
+      "authenticator": {
+         "@type": "@id"
+      },
+      "availability": {
+         "@type": "@id"
+      },
+      "availableAtOrFrom": {
+         "@type": "@id"
+      },
+      "availableChannel": {
+         "@type": "@id"
+      },
+      "availableDeliveryMethod": {
+         "@type": "@id"
+      },
+      "availableFrom": {
+         "@type": "@id"
+      },
+      "availableIn": {
+         "@type": "@id"
+      },
+      "availableOnDevice": {
+         "@type": "@id"
+      },
+      "availableStrength": {
+         "@type": "@id"
+      },
+      "availableTest": {
+         "@type": "@id"
+      },
+      "availableThrough": {
+         "@type": "@id"
+      },
+      "award": {
+         "@type": "@id"
+      },
+      "awards": {
+         "@type": "@id"
+      },
+      "benefits": {
+         "@type": "@id"
+      },
+      "benefitsSummaryUrl": {
+         "@type": "@id"
+      },
+      "billingAddress": {
+         "@type": "@id"
+      },
+      "billingIncrement": {
+         "@type": "@id"
+      },
+      "billingPeriod": {
+         "@type": "@id"
+      },
+      "billingStart": {
+         "@type": "@id"
+      },
+      "bioChemInteraction": {
+         "@type": "@id"
+      },
+      "bioChemSimilarity": {
+         "@type": "@id"
+      },
+      "biologicalRole": {
+         "@type": "@id"
+      },
+      "biomechnicalClass": {
+         "@type": "@id"
+      },
+      "birthDate": {
+         "@type": "@id"
+      },
+      "birthPlace": {
+         "@type": "@id"
+      },
+      "bitrate": {
+         "@type": "@id"
+      },
+      "blogPost": {
+         "@type": "@id"
+      },
+      "blogPosts": {
+         "@type": "@id"
+      },
+      "bloodSupply": {
+         "@type": "@id"
+      },
+      "boardingGroup": {
+         "@type": "@id"
+      },
+      "boardingPolicy": {
+         "@type": "@id"
+      },
+      "bodyLocation": {
+         "@type": "@id"
+      },
+      "bookEdition": {
+         "@type": "@id"
+      },
+      "bookFormat": {
+         "@type": "@id"
+      },
+      "bookingTime": {
+         "@type": "@id"
+      },
+      "borrower": {
+         "@type": "@id"
+      },
+      "box": {
+         "@type": "@id"
+      },
+      "branch": {
+         "@type": "@id"
+      },
+      "branchCode": {
+         "@type": "@id"
+      },
+      "branchOf": {
+         "@type": "@id"
+      },
+      "breastfeedingWarning": {
+         "@type": "@id"
+      },
+      "broadcastAffiliateOf": {
+         "@type": "@id"
+      },
+      "broadcastChannelId": {
+         "@type": "@id"
+      },
+      "broadcastDisplayName": {
+         "@type": "@id"
+      },
+      "broadcaster": {
+         "@type": "@id"
+      },
+      "broadcastOfEvent": {
+         "@type": "@id"
+      },
+      "broadcastServiceTier": {
+         "@type": "@id"
+      },
+      "broadcastSubChannel": {
+         "@type": "@id"
+      },
+      "broadcastTimezone": {
+         "@type": "@id"
+      },
+      "browserRequirements": {
+         "@type": "@id"
+      },
+      "businessDays": {
+         "@type": "@id"
+      },
+      "businessFunction": {
+         "@type": "@id"
+      },
+      "busName": {
+         "@type": "@id"
+      },
+      "busNumber": {
+         "@type": "@id"
+      },
+      "byMonth": {
+         "@type": "@id"
+      },
+      "byMonthDay": {
+         "@type": "@id"
+      },
+      "byMonthWeek": {
+         "@type": "@id"
+      },
+      "callSign": {
+         "@type": "@id"
+      },
+      "calories": {
+         "@type": "@id"
+      },
+      "candidate": {
+         "@type": "@id"
+      },
+      "carbohydrateContent": {
+         "@type": "@id"
+      },
+      "cargoVolume": {
+         "@type": "@id"
+      },
+      "carrier": {
+         "@type": "@id"
+      },
+      "carrierRequirements": {
+         "@type": "@id"
+      },
+      "catalog": {
+         "@type": "@id"
+      },
+      "catalogNumber": {
+         "@type": "@id"
+      },
+      "causeOf": {
+         "@type": "@id"
+      },
+      "character": {
+         "@type": "@id"
+      },
+      "characterAttribute": {
+         "@type": "@id"
+      },
+      "characterName": {
+         "@type": "@id"
+      },
+      "cheatCode": {
+         "@type": "@id"
+      },
+      "chemicalComposition": {
+         "@type": "@id"
+      },
+      "chemicalRole": {
+         "@type": "@id"
+      },
+      "childMaxAge": {
+         "@type": "@id"
+      },
+      "childMinAge": {
+         "@type": "@id"
+      },
+      "children": {
+         "@type": "@id"
+      },
+      "cholesterolContent": {
+         "@type": "@id"
+      },
+      "circle": {
+         "@type": "@id"
+      },
+      "claimReviewed": {
+         "@type": "@id"
+      },
+      "clincalPharmacology": {
+         "@type": "@id"
+      },
+      "clinicalPharmacology": {
+         "@type": "@id"
+      },
+      "closeMatch": {
+         "@id": "ns1:closeMatch"
+      },
+      "closes": {
+         "@type": "@id"
+      },
+      "coach": {
+         "@type": "@id"
+      },
+      "code": {
+         "@type": "@id"
+      },
+      "codeRepository": {
+         "@type": "@id"
+      },
+      "codeSampleType": {
+         "@type": "@id"
+      },
+      "codeValue": {
+         "@type": "@id"
+      },
+      "codingSystem": {
+         "@type": "@id"
+      },
+      "colleagues": {
+         "@type": "@id"
+      },
+      "collection": {
+         "@type": "@id"
+      },
+      "collectionSize": {
+         "@type": "@id"
+      },
+      "color": {
+         "@type": "@id"
+      },
+      "colorist": {
+         "@type": "@id"
+      },
+      "comment": {
+         "@type": "@id"
+      },
+      "commentCount": {
+         "@type": "@id"
+      },
+      "commentText": {
+         "@type": "@id"
+      },
+      "conditionsOfAccess": {
+         "@type": "@id"
+      },
+      "confirmationNumber": {
+         "@type": "@id"
+      },
+      "connectedTo": {
+         "@type": "@id"
+      },
+      "constrainingProperty": {
+         "@type": "@id"
+      },
+      "contactlessPayment": {
+         "@type": "@id"
+      },
+      "contactOption": {
+         "@type": "@id"
+      },
+      "contactPoint": {
+         "@type": "@id"
+      },
+      "contactPoints": {
+         "@type": "@id"
+      },
+      "contactType": {
+         "@type": "@id"
+      },
+      "containedIn": {
+         "@type": "@id"
+      },
+      "containedInPlace": {
+         "@type": "@id"
+      },
+      "containsPlace": {
+         "@type": "@id"
+      },
+      "containsSeason": {
+         "@type": "@id"
+      },
+      "contentLocation": {
+         "@type": "@id"
+      },
+      "contentReferenceTime": {
+         "@type": "@id"
+      },
+      "contentSize": {
+         "@type": "@id"
+      },
+      "contentType": {
+         "@type": "@id"
+      },
+      "contentUrl": {
+         "@type": "@id"
+      },
+      "cookingMethod": {
+         "@type": "@id"
+      },
+      "cookTime": {
+         "@type": "@id"
+      },
+      "copyrightNotice": {
+         "@type": "@id"
+      },
+      "copyrightYear": {
+         "@type": "@id"
+      },
+      "costCategory": {
+         "@type": "@id"
+      },
+      "costCurrency": {
+         "@type": "@id"
+      },
+      "costOrigin": {
+         "@type": "@id"
+      },
+      "countriesNotSupported": {
+         "@type": "@id"
+      },
+      "countriesSupported": {
+         "@type": "@id"
+      },
+      "countryOfAssembly": {
+         "@type": "@id"
+      },
+      "countryOfLastProcessing": {
+         "@type": "@id"
+      },
+      "countryOfOrigin": {
+         "@type": "@id"
+      },
+      "course": {
+         "@type": "@id"
+      },
+      "courseCode": {
+         "@type": "@id"
+      },
+      "courseWorkload": {
+         "@type": "@id"
+      },
+      "coverageEndTime": {
+         "@type": "@id"
+      },
+      "coverageStartTime": {
+         "@type": "@id"
+      },
+      "creditText": {
+         "@type": "@id"
+      },
+      "cssSelector": {
+         "@type": "@id"
+      },
+      "currenciesAccepted": {
+         "@type": "@id"
+      },
+      "currency": {
+         "@type": "@id"
+      },
+      "currentExchangeRate": {
+         "@type": "@id"
+      },
+      "customerRemorseReturnFees": {
+         "@type": "@id"
+      },
+      "customerRemorseReturnLabelSource": {
+         "@type": "@id"
+      },
+      "customerRemorseReturnShippingFeesAmount": {
+         "@type": "@id"
+      },
+      "cutoffTime": {
+         "@type": "@id"
+      },
+      "cvdFacilityCounty": {
+         "@type": "@id"
+      },
+      "cvdFacilityId": {
+         "@type": "@id"
+      },
+      "cvdNumBeds": {
+         "@type": "@id"
+      },
+      "cvdNumBedsOcc": {
+         "@type": "@id"
+      },
+      "cvdNumC19Died": {
+         "@type": "@id"
+      },
+      "cvdNumC19HOPats": {
+         "@type": "@id"
+      },
+      "cvdNumC19HospPats": {
+         "@type": "@id"
+      },
+      "cvdNumC19MechVentPats": {
+         "@type": "@id"
+      },
+      "cvdNumC19OFMechVentPats": {
+         "@type": "@id"
+      },
+      "cvdNumC19OverflowPats": {
+         "@type": "@id"
+      },
+      "cvdNumICUBeds": {
+         "@type": "@id"
+      },
+      "cvdNumICUBedsOcc": {
+         "@type": "@id"
+      },
+      "cvdNumTotBeds": {
+         "@type": "@id"
+      },
+      "cvdNumVent": {
+         "@type": "@id"
+      },
+      "cvdNumVentUse": {
+         "@type": "@id"
+      },
+      "dataset": {
+         "@type": "@id"
+      },
+      "datasetTimeInterval": {
+         "@type": "@id"
+      },
+      "dateline": {
+         "@type": "@id"
+      },
+      "dateReceived": {
+         "@type": "@id"
+      },
+      "dateSent": {
+         "@type": "@id"
+      },
+      "dateVehicleFirstRegistered": {
+         "@type": "@id"
+      },
+      "dayOfWeek": {
+         "@type": "@id"
+      },
+      "deathDate": {
+         "@type": "@id"
+      },
+      "deathPlace": {
+         "@type": "@id"
+      },
+      "deliveryAddress": {
+         "@type": "@id"
+      },
+      "deliveryLeadTime": {
+         "@type": "@id"
+      },
+      "deliveryMethod": {
+         "@type": "@id"
+      },
+      "deliveryStatus": {
+         "@type": "@id"
+      },
+      "deliveryTime": {
+         "@type": "@id"
+      },
+      "department": {
+         "@type": "@id"
+      },
+      "departureAirport": {
+         "@type": "@id"
+      },
+      "departureBoatTerminal": {
+         "@type": "@id"
+      },
+      "departureGate": {
+         "@type": "@id"
+      },
+      "departurePlatform": {
+         "@type": "@id"
+      },
+      "departureStation": {
+         "@type": "@id"
+      },
+      "departureTerminal": {
+         "@type": "@id"
+      },
+      "dependencies": {
+         "@type": "@id"
+      },
+      "description": {
+         "@type": "@id"
+      },
+      "device": {
+         "@type": "@id"
+      },
+      "diagnosis": {
+         "@type": "@id"
+      },
+      "diagram": {
+         "@type": "@id"
+      },
+      "diet": {
+         "@type": "@id"
+      },
+      "dietFeatures": {
+         "@type": "@id"
+      },
+      "differentialDiagnosis": {
+         "@type": "@id"
+      },
+      "directApply": {
+         "@type": "@id"
+      },
+      "director": {
+         "@type": "@id"
+      },
+      "directors": {
+         "@type": "@id"
+      },
+      "disambiguatingDescription": {
+         "@type": "@id"
+      },
+      "discountCode": {
+         "@type": "@id"
+      },
+      "discountCurrency": {
+         "@type": "@id"
+      },
+      "discusses": {
+         "@type": "@id"
+      },
+      "discussionUrl": {
+         "@type": "@id"
+      },
+      "dissolutionDate": {
+         "@type": "@id"
+      },
+      "distance": {
+         "@type": "@id"
+      },
+      "distinguishingSign": {
+         "@type": "@id"
+      },
+      "distribution": {
+         "@type": "@id"
+      },
+      "doesNotShip": {
+         "@type": "@id"
+      },
+      "domainIncludes": {
+         "@type": "@id"
+      },
+      "domiciledMortgage": {
+         "@type": "@id"
+      },
+      "dosageForm": {
+         "@type": "@id"
+      },
+      "doseSchedule": {
+         "@type": "@id"
+      },
+      "doseUnit": {
+         "@type": "@id"
+      },
+      "downloadUrl": {
+         "@type": "@id"
+      },
+      "downvoteCount": {
+         "@type": "@id"
+      },
+      "drainsTo": {
+         "@type": "@id"
+      },
+      "dropoffLocation": {
+         "@type": "@id"
+      },
+      "dropoffTime": {
+         "@type": "@id"
+      },
+      "drug": {
+         "@type": "@id"
+      },
+      "drugClass": {
+         "@type": "@id"
+      },
+      "drugUnit": {
+         "@type": "@id"
+      },
+      "duns": {
+         "@type": "@id"
+      },
+      "duplicateTherapy": {
+         "@type": "@id"
+      },
+      "duration": {
+         "@type": "@id"
+      },
+      "durationOfWarranty": {
+         "@type": "@id"
+      },
+      "earlyPrepaymentPenalty": {
+         "@type": "@id"
+      },
+      "editor": {
+         "@type": "@id"
+      },
+      "educationalAlignment": {
+         "@type": "@id"
+      },
+      "educationalFramework": {
+         "@type": "@id"
+      },
+      "educationalRole": {
+         "@type": "@id"
+      },
+      "eduQuestionType": {
+         "@type": "@id"
+      },
+      "eligibilityToWorkRequirement": {
+         "@type": "@id"
+      },
+      "eligibleCustomerType": {
+         "@type": "@id"
+      },
+      "eligibleDuration": {
+         "@type": "@id"
+      },
+      "eligibleQuantity": {
+         "@type": "@id"
+      },
+      "eligibleTransactionVolume": {
+         "@type": "@id"
+      },
+      "email": {
+         "@type": "@id"
+      },
+      "embeddedTextCaption": {
+         "@type": "@id"
+      },
+      "embedUrl": {
+         "@type": "@id"
+      },
+      "emissionsCO2": {
+         "@type": "@id"
+      },
+      "employee": {
+         "@type": "@id"
+      },
+      "employees": {
+         "@type": "@id"
+      },
+      "employerOverview": {
+         "@type": "@id"
+      },
+      "employmentType": {
+         "@type": "@id"
+      },
+      "employmentUnit": {
+         "@type": "@id"
+      },
+      "encodesBioChemEntity": {
+         "@type": "@id"
+      },
+      "encodesCreativeWork": {
+         "@type": "@id"
+      },
+      "encoding": {
+         "@type": "@id"
+      },
+      "encodings": {
+         "@type": "@id"
+      },
+      "encodingType": {
+         "@type": "@id"
+      },
+      "energyEfficiencyScaleMax": {
+         "@type": "@id"
+      },
+      "energyEfficiencyScaleMin": {
+         "@type": "@id"
+      },
+      "engineDisplacement": {
+         "@type": "@id"
+      },
+      "enginePower": {
+         "@type": "@id"
+      },
+      "entertainmentBusiness": {
+         "@type": "@id"
+      },
+      "epidemiology": {
+         "@type": "@id"
+      },
+      "episode": {
+         "@type": "@id"
+      },
+      "episodes": {
+         "@type": "@id"
+      },
+      "equal": {
+         "@type": "@id"
+      },
+      "error": {
+         "@type": "@id"
+      },
+      "estimatesRiskOf": {
+         "@type": "@id"
+      },
+      "event": {
+         "@type": "@id"
+      },
+      "eventAttendanceMode": {
+         "@type": "@id"
+      },
+      "events": {
+         "@type": "@id"
+      },
+      "eventSchedule": {
+         "@type": "@id"
+      },
+      "eventStatus": {
+         "@type": "@id"
+      },
+      "evidenceLevel": {
+         "@type": "@id"
+      },
+      "evidenceOrigin": {
+         "@type": "@id"
+      },
+      "exactMatch": {
+         "@id": "ns1:exactMatch"
+      },
+      "exampleOfWork": {
+         "@type": "@id"
+      },
+      "executableLibraryName": {
+         "@type": "@id"
+      },
+      "exerciseCourse": {
+         "@type": "@id"
+      },
+      "exercisePlan": {
+         "@type": "@id"
+      },
+      "exerciseRelatedDiet": {
+         "@type": "@id"
+      },
+      "exerciseType": {
+         "@type": "@id"
+      },
+      "expectedPrognosis": {
+         "@type": "@id"
+      },
+      "expectsAcceptanceOf": {
+         "@type": "@id"
+      },
+      "experienceInPlaceOfEducation": {
+         "@type": "@id"
+      },
+      "expertConsiderations": {
+         "@type": "@id"
+      },
+      "expires": {
+         "@type": "@id"
+      },
+      "familyName": {
+         "@type": "@id"
+      },
+      "fatContent": {
+         "@type": "@id"
+      },
+      "faxNumber": {
+         "@type": "@id"
+      },
+      "fiberContent": {
+         "@type": "@id"
+      },
+      "fileSize": {
+         "@type": "@id"
+      },
+      "firstAppearance": {
+         "@type": "@id"
+      },
+      "firstPerformance": {
+         "@type": "@id"
+      },
+      "flightNumber": {
+         "@type": "@id"
+      },
+      "floorLevel": {
+         "@type": "@id"
+      },
+      "floorLimit": {
+         "@type": "@id"
+      },
+      "floorSize": {
+         "@type": "@id"
+      },
+      "followee": {
+         "@type": "@id"
+      },
+      "follows": {
+         "@type": "@id"
+      },
+      "followup": {
+         "@type": "@id"
+      },
+      "foodEvent": {
+         "@type": "@id"
+      },
+      "foodWarning": {
+         "@type": "@id"
+      },
+      "founder": {
+         "@type": "@id"
+      },
+      "founders": {
+         "@type": "@id"
+      },
+      "foundingDate": {
+         "@type": "@id"
+      },
+      "foundingLocation": {
+         "@type": "@id"
+      },
+      "free": {
+         "@type": "@id"
+      },
+      "frequency": {
+         "@type": "@id"
+      },
+      "fromLocation": {
+         "@type": "@id"
+      },
+      "fuelCapacity": {
+         "@type": "@id"
+      },
+      "fuelConsumption": {
+         "@type": "@id"
+      },
+      "fuelEfficiency": {
+         "@type": "@id"
+      },
+      "fundedItem": {
+         "@type": "@id"
+      },
+      "game": {
+         "@type": "@id"
+      },
+      "gameItem": {
+         "@type": "@id"
+      },
+      "gameServer": {
+         "@type": "@id"
+      },
+      "gameTip": {
+         "@type": "@id"
+      },
+      "geographicArea": {
+         "@type": "@id"
+      },
+      "geoMidpoint": {
+         "@type": "@id"
+      },
+      "givenName": {
+         "@type": "@id"
+      },
+      "globalLocationNumber": {
+         "@type": "@id"
+      },
+      "governmentBenefitsInfo": {
+         "@type": "@id"
+      },
+      "gracePeriod": {
+         "@type": "@id"
+      },
+      "greater": {
+         "@type": "@id"
+      },
+      "greaterOrEqual": {
+         "@type": "@id"
+      },
+      "gtin": {
+         "@type": "@id"
+      },
+      "gtin12": {
+         "@type": "@id"
+      },
+      "gtin13": {
+         "@type": "@id"
+      },
+      "gtin14": {
+         "@type": "@id"
+      },
+      "gtin8": {
+         "@type": "@id"
+      },
+      "guideline": {
+         "@type": "@id"
+      },
+      "guidelineDate": {
+         "@type": "@id"
+      },
+      "guidelineSubject": {
+         "@type": "@id"
+      },
+      "handlingTime": {
+         "@type": "@id"
+      },
+      "hasBioChemEntityPart": {
+         "@type": "@id"
+      },
+      "hasBioPolymerSequence": {
+         "@type": "@id"
+      },
+      "hasBroadcastChannel": {
+         "@type": "@id"
+      },
+      "hasCategoryCode": {
+         "@type": "@id"
+      },
+      "hasCourse": {
+         "@type": "@id"
+      },
+      "hasCourseInstance": {
+         "@type": "@id"
+      },
+      "hasCredential": {
+         "@type": "@id"
+      },
+      "hasDefinedTerm": {
+         "@type": "@id"
+      },
+      "hasDeliveryMethod": {
+         "@type": "@id"
+      },
+      "hasDigitalDocumentPermission": {
+         "@type": "@id"
+      },
+      "hasDriveThroughService": {
+         "@type": "@id"
+      },
+      "hasEnergyConsumptionDetails": {
+         "@type": "@id"
+      },
+      "hasEnergyEfficiencyCategory": {
+         "@type": "@id"
+      },
+      "hasHealthAspect": {
+         "@type": "@id"
+      },
+      "hasMeasurement": {
+         "@type": "@id"
+      },
+      "hasMenuItem": {
+         "@type": "@id"
+      },
+      "hasMenuSection": {
+         "@type": "@id"
+      },
+      "hasMerchantReturnPolicy": {
+         "@type": "@id"
+      },
+      "hasOccupation": {
+         "@type": "@id"
+      },
+      "hasOfferCatalog": {
+         "@type": "@id"
+      },
+      "hasPart": {
+         "@type": "@id"
+      },
+      "hasPOS": {
+         "@type": "@id"
+      },
+      "hasVariant": {
+         "@type": "@id"
+      },
+      "headline": {
+         "@type": "@id"
+      },
+      "healthCondition": {
+         "@type": "@id"
+      },
+      "healthPlanCoinsuranceOption": {
+         "@type": "@id"
+      },
+      "healthPlanCoinsuranceRate": {
+         "@type": "@id"
+      },
+      "healthPlanCopay": {
+         "@type": "@id"
+      },
+      "healthPlanCopayOption": {
+         "@type": "@id"
+      },
+      "healthPlanCostSharing": {
+         "@type": "@id"
+      },
+      "healthPlanDrugOption": {
+         "@type": "@id"
+      },
+      "healthPlanDrugTier": {
+         "@type": "@id"
+      },
+      "healthPlanId": {
+         "@type": "@id"
+      },
+      "healthPlanMarketingUrl": {
+         "@type": "@id"
+      },
+      "healthPlanNetworkId": {
+         "@type": "@id"
+      },
+      "healthPlanNetworkTier": {
+         "@type": "@id"
+      },
+      "healthPlanPharmacyCategory": {
+         "@type": "@id"
+      },
+      "hiringOrganization": {
+         "@type": "@id"
+      },
+      "holdingArchive": {
+         "@type": "@id"
+      },
+      "honorificPrefix": {
+         "@type": "@id"
+      },
+      "honorificSuffix": {
+         "@type": "@id"
+      },
+      "hospitalAffiliation": {
+         "@type": "@id"
+      },
+      "hostingOrganization": {
+         "@type": "@id"
+      },
+      "hoursAvailable": {
+         "@type": "@id"
+      },
+      "howPerformed": {
+         "@type": "@id"
+      },
+      "httpMethod": {
+         "@type": "@id"
+      },
+      "iataCode": {
+         "@type": "@id"
+      },
+      "icaoCode": {
+         "@type": "@id"
+      },
+      "identifyingExam": {
+         "@type": "@id"
+      },
+      "identifyingTest": {
+         "@type": "@id"
+      },
+      "illustrator": {
+         "@type": "@id"
+      },
+      "imagingTechnique": {
+         "@type": "@id"
+      },
+      "inAlbum": {
+         "@type": "@id"
+      },
+      "inBroadcastLineup": {
+         "@type": "@id"
+      },
+      "incentiveCompensation": {
+         "@type": "@id"
+      },
+      "incentives": {
+         "@type": "@id"
+      },
+      "inChI": {
+         "@type": "@id"
+      },
+      "inChIKey": {
+         "@type": "@id"
+      },
+      "includedComposition": {
+         "@type": "@id"
+      },
+      "includedDataCatalog": {
+         "@type": "@id"
+      },
+      "includedInDataCatalog": {
+         "@type": "@id"
+      },
+      "includedInHealthInsurancePlan": {
+         "@type": "@id"
+      },
+      "includedRiskFactor": {
+         "@type": "@id"
+      },
+      "includesAttraction": {
+         "@type": "@id"
+      },
+      "includesHealthPlanFormulary": {
+         "@type": "@id"
+      },
+      "includesHealthPlanNetwork": {
+         "@type": "@id"
+      },
+      "includesObject": {
+         "@type": "@id"
+      },
+      "increasesRiskOf": {
+         "@type": "@id"
+      },
+      "infectiousAgent": {
+         "@type": "@id"
+      },
+      "infectiousAgentClass": {
+         "@type": "@id"
+      },
+      "ingredients": {
+         "@type": "@id"
+      },
+      "inker": {
+         "@type": "@id"
+      },
+      "inPlaylist": {
+         "@type": "@id"
+      },
+      "inProductGroupWithID": {
+         "@type": "@id"
+      },
+      "insertion": {
+         "@type": "@id"
+      },
+      "installUrl": {
+         "@type": "@id"
+      },
+      "inStoreReturnsOffered": {
+         "@type": "@id"
+      },
+      "instructor": {
+         "@type": "@id"
+      },
+      "instrument": {
+         "@type": "@id"
+      },
+      "inSupportOf": {
+         "@type": "@id"
+      },
+      "interactingDrug": {
+         "@type": "@id"
+      },
+      "interactionStatistic": {
+         "@type": "@id"
+      },
+      "interactionType": {
+         "@type": "@id"
+      },
+      "interactivityType": {
+         "@type": "@id"
+      },
+      "interpretedAsClaim": {
+         "@type": "@id"
+      },
+      "inventoryLevel": {
+         "@type": "@id"
+      },
+      "inverseOf": {
+         "@type": "@id"
+      },
+      "isAcceptingNewPatients": {
+         "@type": "@id"
+      },
+      "isAccessibleForFree": {
+         "@type": "@id"
+      },
+      "isAccessoryOrSparePartFor": {
+         "@type": "@id"
+      },
+      "isAvailableGenerically": {
+         "@type": "@id"
+      },
+      "isbn": {
+         "@type": "@id"
+      },
+      "isConsumableFor": {
+         "@type": "@id"
+      },
+      "isEncodedByBioChemEntity": {
+         "@type": "@id"
+      },
+      "isFamilyFriendly": {
+         "@type": "@id"
+      },
+      "isGift": {
+         "@type": "@id"
+      },
+      "isicV4": {
+         "@type": "@id"
+      },
+      "isLiveBroadcast": {
+         "@type": "@id"
+      },
+      "isPartOfBioChemEntity": {
+         "@type": "@id"
+      },
+      "isPlanForApartment": {
+         "@type": "@id"
+      },
+      "isProprietary": {
+         "@type": "@id"
+      },
+      "isrcCode": {
+         "@type": "@id"
+      },
+      "isResizable": {
+         "@type": "@id"
+      },
+      "issn": {
+         "@type": "@id"
+      },
+      "issuedBy": {
+         "@type": "@id"
+      },
+      "issuedThrough": {
+         "@type": "@id"
+      },
+      "isUnlabelledFallback": {
+         "@type": "@id"
+      },
+      "iswcCode": {
+         "@type": "@id"
+      },
+      "item": {
+         "@type": "@id"
+      },
+      "itemCondition": {
+         "@type": "@id"
+      },
+      "itemDefectReturnFees": {
+         "@type": "@id"
+      },
+      "itemDefectReturnLabelSource": {
+         "@type": "@id"
+      },
+      "itemDefectReturnShippingFeesAmount": {
+         "@type": "@id"
+      },
+      "itemReviewed": {
+         "@type": "@id"
+      },
+      "itemShipped": {
+         "@type": "@id"
+      },
+      "iupacName": {
+         "@type": "@id"
+      },
+      "jobBenefits": {
+         "@type": "@id"
+      },
+      "jobImmediateStart": {
+         "@type": "@id"
+      },
+      "jobLocation": {
+         "@type": "@id"
+      },
+      "jobLocationType": {
+         "@type": "@id"
+      },
+      "knownVehicleDamages": {
+         "@type": "@id"
+      },
+      "knows": {
+         "@type": "@id"
+      },
+      "labelDetails": {
+         "@type": "@id"
+      },
+      "language": {
+         "@type": "@id"
+      },
+      "lastReviewed": {
+         "@type": "@id"
+      },
+      "legalName": {
+         "@type": "@id"
+      },
+      "legislationApplies": {
+         "@type": "@id"
+      },
+      "legislationChanges": {
+         "@type": "@id"
+      },
+      "legislationConsolidates": {
+         "@type": "@id"
+      },
+      "legislationDate": {
+         "@type": "@id"
+      },
+      "legislationDateVersion": {
+         "@type": "@id"
+      },
+      "legislationLegalForce": {
+         "@type": "@id"
+      },
+      "legislationLegalValue": {
+         "@type": "@id"
+      },
+      "legislationTransposes": {
+         "@type": "@id"
+      },
+      "leiCode": {
+         "@type": "@id"
+      },
+      "lesser": {
+         "@type": "@id"
+      },
+      "lesserOrEqual": {
+         "@type": "@id"
+      },
+      "letterer": {
+         "@type": "@id"
+      },
+      "line": {
+         "@type": "@id"
+      },
+      "linkRelationship": {
+         "@type": "@id"
+      },
+      "liveBlogUpdate": {
+         "@type": "@id"
+      },
+      "loanMortgageMandateAmount": {
+         "@type": "@id"
+      },
+      "loanPaymentAmount": {
+         "@type": "@id"
+      },
+      "loanPaymentFrequency": {
+         "@type": "@id"
+      },
+      "loanRepaymentForm": {
+         "@type": "@id"
+      },
+      "loanTerm": {
+         "@type": "@id"
+      },
+      "locationCreated": {
+         "@type": "@id"
+      },
+      "lodgingUnitDescription": {
+         "@type": "@id"
+      },
+      "loser": {
+         "@type": "@id"
+      },
+      "lyricist": {
+         "@type": "@id"
+      },
+      "lyrics": {
+         "@type": "@id"
+      },
+      "mainContentOfPage": {
+         "@type": "@id"
+      },
+      "mainEntity": {
+         "@type": "@id"
+      },
+      "makesOffer": {
+         "@type": "@id"
+      },
+      "manufacturer": {
+         "@type": "@id"
+      },
+      "map": {
+         "@type": "@id"
+      },
+      "maps": {
+         "@type": "@id"
+      },
+      "mapType": {
+         "@type": "@id"
+      },
+      "marginOfError": {
+         "@type": "@id"
+      },
+      "maximumAttendeeCapacity": {
+         "@type": "@id"
+      },
+      "maximumEnrollment": {
+         "@type": "@id"
+      },
+      "maximumIntake": {
+         "@type": "@id"
+      },
+      "maximumPhysicalAttendeeCapacity": {
+         "@type": "@id"
+      },
+      "maximumVirtualAttendeeCapacity": {
+         "@type": "@id"
+      },
+      "maxPrice": {
+         "@type": "@id"
+      },
+      "maxValue": {
+         "@type": "@id"
+      },
+      "mealService": {
+         "@type": "@id"
+      },
+      "measuredProperty": {
+         "@type": "@id"
+      },
+      "measuredValue": {
+         "@type": "@id"
+      },
+      "mechanismOfAction": {
+         "@type": "@id"
+      },
+      "mediaAuthenticityCategory": {
+         "@type": "@id"
+      },
+      "mediaItemAppearance": {
+         "@type": "@id"
+      },
+      "median": {
+         "@type": "@id"
+      },
+      "medicalSpecialty": {
+         "@type": "@id"
+      },
+      "medicineSystem": {
+         "@type": "@id"
+      },
+      "membershipNumber": {
+         "@type": "@id"
+      },
+      "mentions": {
+         "@type": "@id"
+      },
+      "merchantReturnLink": {
+         "@type": "@id"
+      },
+      "messageAttachment": {
+         "@type": "@id"
+      },
+      "mileageFromOdometer": {
+         "@type": "@id"
+      },
+      "minPrice": {
+         "@type": "@id"
+      },
+      "minValue": {
+         "@type": "@id"
+      },
+      "modelDate": {
+         "@type": "@id"
+      },
+      "modifiedTime": {
+         "@type": "@id"
+      },
+      "molecularFormula": {
+         "@type": "@id"
+      },
+      "monthsOfExperience": {
+         "@type": "@id"
+      },
+      "mpn": {
+         "@type": "@id"
+      },
+      "multipleValues": {
+         "@type": "@id"
+      },
+      "muscleAction": {
+         "@type": "@id"
+      },
+      "musicalKey": {
+         "@type": "@id"
+      },
+      "musicArrangement": {
+         "@type": "@id"
+      },
+      "musicCompositionForm": {
+         "@type": "@id"
+      },
+      "musicGroupMember": {
+         "@type": "@id"
+      },
+      "musicReleaseFormat": {
+         "@type": "@id"
+      },
+      "naics": {
+         "@type": "@id"
+      },
+      "name": {
+         "@type": "@id"
+      },
+      "nationality": {
+         "@type": "@id"
+      },
+      "naturalProgression": {
+         "@type": "@id"
+      },
+      "nerve": {
+         "@type": "@id"
+      },
+      "nerveMotor": {
+         "@type": "@id"
+      },
+      "nextItem": {
+         "@type": "@id"
+      },
+      "nonEqual": {
+         "@type": "@id"
+      },
+      "nonprofitStatus": {
+         "@type": "@id"
+      },
+      "nonProprietaryName": {
+         "@type": "@id"
+      },
+      "nsn": {
+         "@type": "@id"
+      },
+      "numberedPosition": {
+         "@type": "@id"
+      },
+      "numberOfAccommodationUnits": {
+         "@type": "@id"
+      },
+      "numberOfAvailableAccommodationUnits": {
+         "@type": "@id"
+      },
+      "numberOfBathroomsTotal": {
+         "@type": "@id"
+      },
+      "numberOfBeds": {
+         "@type": "@id"
+      },
+      "numberOfEmployees": {
+         "@type": "@id"
+      },
+      "numberOfEpisodes": {
+         "@type": "@id"
+      },
+      "numberOfFullBathrooms": {
+         "@type": "@id"
+      },
+      "numberOfItems": {
+         "@type": "@id"
+      },
+      "numberOfLoanPayments": {
+         "@type": "@id"
+      },
+      "numberOfPages": {
+         "@type": "@id"
+      },
+      "numberOfPartialBathrooms": {
+         "@type": "@id"
+      },
+      "numberOfPlayers": {
+         "@type": "@id"
+      },
+      "numberOfSeasons": {
+         "@type": "@id"
+      },
+      "numConstraints": {
+         "@type": "@id"
+      },
+      "numTracks": {
+         "@type": "@id"
+      },
+      "nutrition": {
+         "@type": "@id"
+      },
+      "object": {
+         "@type": "@id"
+      },
+      "observationDate": {
+         "@type": "@id"
+      },
+      "observedNode": {
+         "@type": "@id"
+      },
+      "occupancy": {
+         "@type": "@id"
+      },
+      "occupationLocation": {
+         "@type": "@id"
+      },
+      "offerCount": {
+         "@type": "@id"
+      },
+      "offersPrescriptionByMail": {
+         "@type": "@id"
+      },
+      "openingHours": {
+         "@type": "@id"
+      },
+      "openingHoursSpecification": {
+         "@type": "@id"
+      },
+      "opens": {
+         "@type": "@id"
+      },
+      "operatingSystem": {
+         "@type": "@id"
+      },
+      "opponent": {
+         "@type": "@id"
+      },
+      "option": {
+         "@type": "@id"
+      },
+      "orderDelivery": {
+         "@type": "@id"
+      },
+      "orderItemNumber": {
+         "@type": "@id"
+      },
+      "orderItemStatus": {
+         "@type": "@id"
+      },
+      "orderNumber": {
+         "@type": "@id"
+      },
+      "orderQuantity": {
+         "@type": "@id"
+      },
+      "orderStatus": {
+         "@type": "@id"
+      },
+      "originAddress": {
+         "@type": "@id"
+      },
+      "originalMediaContextDescription": {
+         "@type": "@id"
+      },
+      "originatesFrom": {
+         "@type": "@id"
+      },
+      "overdosage": {
+         "@type": "@id"
+      },
+      "ownedFrom": {
+         "@type": "@id"
+      },
+      "ownedThrough": {
+         "@type": "@id"
+      },
+      "pagination": {
+         "@type": "@id"
+      },
+      "parent": {
+         "@type": "@id"
+      },
+      "parentItem": {
+         "@type": "@id"
+      },
+      "parentOrganization": {
+         "@type": "@id"
+      },
+      "parents": {
+         "@type": "@id"
+      },
+      "parentService": {
+         "@type": "@id"
+      },
+      "partOfEpisode": {
+         "@type": "@id"
+      },
+      "partOfInvoice": {
+         "@type": "@id"
+      },
+      "partOfOrder": {
+         "@type": "@id"
+      },
+      "partOfSeason": {
+         "@type": "@id"
+      },
+      "partOfSeries": {
+         "@type": "@id"
+      },
+      "partOfSystem": {
+         "@type": "@id"
+      },
+      "partOfTrip": {
+         "@type": "@id"
+      },
+      "partOfTVSeries": {
+         "@type": "@id"
+      },
+      "passengerSequenceNumber": {
+         "@type": "@id"
+      },
+      "pathophysiology": {
+         "@type": "@id"
+      },
+      "payload": {
+         "@type": "@id"
+      },
+      "paymentAccepted": {
+         "@type": "@id"
+      },
+      "paymentDue": {
+         "@type": "@id"
+      },
+      "paymentMethod": {
+         "@type": "@id"
+      },
+      "paymentMethodId": {
+         "@type": "@id"
+      },
+      "paymentUrl": {
+         "@type": "@id"
+      },
+      "penciler": {
+         "@type": "@id"
+      },
+      "percentile10": {
+         "@type": "@id"
+      },
+      "percentile25": {
+         "@type": "@id"
+      },
+      "percentile75": {
+         "@type": "@id"
+      },
+      "percentile90": {
+         "@type": "@id"
+      },
+      "performerIn": {
+         "@type": "@id"
+      },
+      "performTime": {
+         "@type": "@id"
+      },
+      "permissions": {
+         "@type": "@id"
+      },
+      "permissionType": {
+         "@type": "@id"
+      },
+      "permitAudience": {
+         "@type": "@id"
+      },
+      "permittedUsage": {
+         "@type": "@id"
+      },
+      "phoneticText": {
+         "@type": "@id"
+      },
+      "physiologicalBenefits": {
+         "@type": "@id"
+      },
+      "pickupLocation": {
+         "@type": "@id"
+      },
+      "pickupTime": {
+         "@type": "@id"
+      },
+      "playersOnline": {
+         "@type": "@id"
+      },
+      "playerType": {
+         "@type": "@id"
+      },
+      "playMode": {
+         "@type": "@id"
+      },
+      "polygon": {
+         "@type": "@id"
+      },
+      "populationType": {
+         "@type": "@id"
+      },
+      "possibleComplication": {
+         "@type": "@id"
+      },
+      "possibleTreatment": {
+         "@type": "@id"
+      },
+      "postalCode": {
+         "@type": "@id"
+      },
+      "postalCodeBegin": {
+         "@type": "@id"
+      },
+      "postalCodeEnd": {
+         "@type": "@id"
+      },
+      "postalCodePrefix": {
+         "@type": "@id"
+      },
+      "postalCodeRange": {
+         "@type": "@id"
+      },
+      "postOfficeBoxNumber": {
+         "@type": "@id"
+      },
+      "postOp": {
+         "@type": "@id"
+      },
+      "potentialAction": {
+         "@type": "@id"
+      },
+      "potentialUse": {
+         "@type": "@id"
+      },
+      "predecessorOf": {
+         "@type": "@id"
+      },
+      "pregnancyCategory": {
+         "@type": "@id"
+      },
+      "pregnancyWarning": {
+         "@type": "@id"
+      },
+      "preOp": {
+         "@type": "@id"
+      },
+      "prepTime": {
+         "@type": "@id"
+      },
+      "prescribingInfo": {
+         "@type": "@id"
+      },
+      "previousItem": {
+         "@type": "@id"
+      },
+      "previousStartDate": {
+         "@type": "@id"
+      },
+      "priceComponent": {
+         "@type": "@id"
+      },
+      "priceComponentType": {
+         "@type": "@id"
+      },
+      "priceCurrency": {
+         "@type": "@id"
+      },
+      "priceRange": {
+         "@type": "@id"
+      },
+      "priceSpecification": {
+         "@type": "@id"
+      },
+      "priceValidUntil": {
+         "@type": "@id"
+      },
+      "primaryImageOfPage": {
+         "@type": "@id"
+      },
+      "primaryPrevention": {
+         "@type": "@id"
+      },
+      "printColumn": {
+         "@type": "@id"
+      },
+      "printEdition": {
+         "@type": "@id"
+      },
+      "printPage": {
+         "@type": "@id"
+      },
+      "printSection": {
+         "@type": "@id"
+      },
+      "procedure": {
+         "@type": "@id"
+      },
+      "procedureType": {
+         "@type": "@id"
+      },
+      "processingTime": {
+         "@type": "@id"
+      },
+      "processorRequirements": {
+         "@type": "@id"
+      },
+      "produces": {
+         "@type": "@id"
+      },
+      "productGroupID": {
+         "@type": "@id"
+      },
+      "productID": {
+         "@type": "@id"
+      },
+      "productionCompany": {
+         "@type": "@id"
+      },
+      "productionDate": {
+         "@type": "@id"
+      },
+      "proficiencyLevel": {
+         "@type": "@id"
+      },
+      "programMembershipUsed": {
+         "@type": "@id"
+      },
+      "programmingModel": {
+         "@type": "@id"
+      },
+      "programName": {
+         "@type": "@id"
+      },
+      "proprietaryName": {
+         "@type": "@id"
+      },
+      "proteinContent": {
+         "@type": "@id"
+      },
+      "providerMobility": {
+         "@type": "@id"
+      },
+      "providesBroadcastService": {
+         "@type": "@id"
+      },
+      "providesService": {
+         "@type": "@id"
+      },
+      "publicAccess": {
+         "@type": "@id"
+      },
+      "publication": {
+         "@type": "@id"
+      },
+      "publicationType": {
+         "@type": "@id"
+      },
+      "publishedOn": {
+         "@type": "@id"
+      },
+      "publisherImprint": {
+         "@type": "@id"
+      },
+      "purchaseDate": {
+         "@type": "@id"
+      },
+      "query": {
+         "@type": "@id"
+      },
+      "quest": {
+         "@type": "@id"
+      },
+      "question": {
+         "@type": "@id"
+      },
+      "rangeIncludes": {
+         "@type": "@id"
+      },
+      "ratingCount": {
+         "@type": "@id"
+      },
+      "ratingExplanation": {
+         "@type": "@id"
+      },
+      "readBy": {
+         "@type": "@id"
+      },
+      "readonlyValue": {
+         "@type": "@id"
+      },
+      "realEstateAgent": {
+         "@type": "@id"
+      },
+      "recipe": {
+         "@type": "@id"
+      },
+      "recipeCategory": {
+         "@type": "@id"
+      },
+      "recipeCuisine": {
+         "@type": "@id"
+      },
+      "recipeIngredient": {
+         "@type": "@id"
+      },
+      "recognizedBy": {
+         "@type": "@id"
+      },
+      "recognizingAuthority": {
+         "@type": "@id"
+      },
+      "recommendationStrength": {
+         "@type": "@id"
+      },
+      "recommendedIntake": {
+         "@type": "@id"
+      },
+      "recordedAs": {
+         "@type": "@id"
+      },
+      "recordedAt": {
+         "@type": "@id"
+      },
+      "recordedIn": {
+         "@type": "@id"
+      },
+      "recordingOf": {
+         "@type": "@id"
+      },
+      "recordLabel": {
+         "@type": "@id"
+      },
+      "recourseLoan": {
+         "@type": "@id"
+      },
+      "referenceQuantity": {
+         "@type": "@id"
+      },
+      "referencesOrder": {
+         "@type": "@id"
+      },
+      "refundType": {
+         "@type": "@id"
+      },
+      "regionsAllowed": {
+         "@type": "@id"
+      },
+      "relatedCondition": {
+         "@type": "@id"
+      },
+      "relatedDrug": {
+         "@type": "@id"
+      },
+      "relatedLink": {
+         "@type": "@id"
+      },
+      "relatedStructure": {
+         "@type": "@id"
+      },
+      "relatedTherapy": {
+         "@type": "@id"
+      },
+      "relatedTo": {
+         "@type": "@id"
+      },
+      "releaseDate": {
+         "@type": "@id"
+      },
+      "releasedEvent": {
+         "@type": "@id"
+      },
+      "releaseOf": {
+         "@type": "@id"
+      },
+      "relevantOccupation": {
+         "@type": "@id"
+      },
+      "relevantSpecialty": {
+         "@type": "@id"
+      },
+      "remainingAttendeeCapacity": {
+         "@type": "@id"
+      },
+      "renegotiableLoan": {
+         "@type": "@id"
+      },
+      "repeatCount": {
+         "@type": "@id"
+      },
+      "repeatFrequency": {
+         "@type": "@id"
+      },
+      "replacee": {
+         "@type": "@id"
+      },
+      "replacer": {
+         "@type": "@id"
+      },
+      "replyToUrl": {
+         "@type": "@id"
+      },
+      "reportNumber": {
+         "@type": "@id"
+      },
+      "representativeOfPage": {
+         "@type": "@id"
+      },
+      "requiredGender": {
+         "@type": "@id"
+      },
+      "requiredMaxAge": {
+         "@type": "@id"
+      },
+      "requiredMinAge": {
+         "@type": "@id"
+      },
+      "reservationFor": {
+         "@type": "@id"
+      },
+      "reservationId": {
+         "@type": "@id"
+      },
+      "reservationStatus": {
+         "@type": "@id"
+      },
+      "reservedTicket": {
+         "@type": "@id"
+      },
+      "responsibilities": {
+         "@type": "@id"
+      },
+      "result": {
+         "@type": "@id"
+      },
+      "resultComment": {
+         "@type": "@id"
+      },
+      "resultReview": {
+         "@type": "@id"
+      },
+      "returnFees": {
+         "@type": "@id"
+      },
+      "returnLabelSource": {
+         "@type": "@id"
+      },
+      "returnMethod": {
+         "@type": "@id"
+      },
+      "returnPolicyCategory": {
+         "@type": "@id"
+      },
+      "returnPolicySeasonalOverride": {
+         "@type": "@id"
+      },
+      "returnShippingFeesAmount": {
+         "@type": "@id"
+      },
+      "review": {
+         "@type": "@id"
+      },
+      "reviewAspect": {
+         "@type": "@id"
+      },
+      "reviewBody": {
+         "@type": "@id"
+      },
+      "reviewCount": {
+         "@type": "@id"
+      },
+      "reviewRating": {
+         "@type": "@id"
+      },
+      "reviews": {
+         "@type": "@id"
+      },
+      "riskFactor": {
+         "@type": "@id"
+      },
+      "risks": {
+         "@type": "@id"
+      },
+      "roofLoad": {
+         "@type": "@id"
+      },
+      "rsvpResponse": {
+         "@type": "@id"
+      },
+      "runsTo": {
+         "@type": "@id"
+      },
+      "runtime": {
+         "@type": "@id"
+      },
+      "runtimePlatform": {
+         "@type": "@id"
+      },
+      "rxcui": {
+         "@type": "@id"
+      },
+      "safetyConsideration": {
+         "@type": "@id"
+      },
+      "salaryCurrency": {
+         "@type": "@id"
+      },
+      "salaryUponCompletion": {
+         "@type": "@id"
+      },
+      "sameAs": {
+         "@type": "@id"
+      },
+      "sampleType": {
+         "@type": "@id"
+      },
+      "saturatedFatContent": {
+         "@type": "@id"
+      },
+      "scheduledPaymentDate": {
+         "@type": "@id"
+      },
+      "scheduledTime": {
+         "@type": "@id"
+      },
+      "scheduleTimezone": {
+         "@type": "@id"
+      },
+      "screenCount": {
+         "@type": "@id"
+      },
+      "sdDatePublished": {
+         "@type": "@id"
+      },
+      "season": {
+         "@type": "@id"
+      },
+      "seasons": {
+         "@type": "@id"
+      },
+      "seatNumber": {
+         "@type": "@id"
+      },
+      "seatRow": {
+         "@type": "@id"
+      },
+      "seatSection": {
+         "@type": "@id"
+      },
+      "secondaryPrevention": {
+         "@type": "@id"
+      },
+      "securityScreening": {
+         "@type": "@id"
+      },
+      "seeks": {
+         "@type": "@id"
+      },
+      "serialNumber": {
+         "@type": "@id"
+      },
+      "seriousAdverseOutcome": {
+         "@type": "@id"
+      },
+      "serverStatus": {
+         "@type": "@id"
+      },
+      "servesCuisine": {
+         "@type": "@id"
+      },
+      "serviceAudience": {
+         "@type": "@id"
+      },
+      "serviceLocation": {
+         "@type": "@id"
+      },
+      "serviceOperator": {
+         "@type": "@id"
+      },
+      "serviceOutput": {
+         "@type": "@id"
+      },
+      "servicePhone": {
+         "@type": "@id"
+      },
+      "servicePostalAddress": {
+         "@type": "@id"
+      },
+      "serviceSmsNumber": {
+         "@type": "@id"
+      },
+      "serviceUrl": {
+         "@type": "@id"
+      },
+      "servingSize": {
+         "@type": "@id"
+      },
+      "sha256": {
+         "@type": "@id"
+      },
+      "sharedContent": {
+         "@type": "@id"
+      },
+      "shippingDestination": {
+         "@type": "@id"
+      },
+      "shippingDetails": {
+         "@type": "@id"
+      },
+      "shippingLabel": {
+         "@type": "@id"
+      },
+      "shippingRate": {
+         "@type": "@id"
+      },
+      "shippingSettingsLink": {
+         "@type": "@id"
+      },
+      "sibling": {
+         "@type": "@id"
+      },
+      "siblings": {
+         "@type": "@id"
+      },
+      "signDetected": {
+         "@type": "@id"
+      },
+      "significance": {
+         "@type": "@id"
+      },
+      "significantLink": {
+         "@type": "@id"
+      },
+      "significantLinks": {
+         "@type": "@id"
+      },
+      "signOrSymptom": {
+         "@type": "@id"
+      },
+      "sku": {
+         "@type": "@id"
+      },
+      "slogan": {
+         "@type": "@id"
+      },
+      "smiles": {
+         "@type": "@id"
+      },
+      "smokingAllowed": {
+         "@type": "@id"
+      },
+      "sodiumContent": {
+         "@type": "@id"
+      },
+      "softwareAddOn": {
+         "@type": "@id"
+      },
+      "softwareHelp": {
+         "@type": "@id"
+      },
+      "softwareVersion": {
+         "@type": "@id"
+      },
+      "sourcedFrom": {
+         "@type": "@id"
+      },
+      "sourceOrganization": {
+         "@type": "@id"
+      },
+      "spatial": {
+         "@type": "@id"
+      },
+      "spatialCoverage": {
+         "@type": "@id"
+      },
+      "specialCommitments": {
+         "@type": "@id"
+      },
+      "specialOpeningHoursSpecification": {
+         "@type": "@id"
+      },
+      "specialty": {
+         "@type": "@id"
+      },
+      "speechToTextMarkup": {
+         "@type": "@id"
+      },
+      "speed": {
+         "@type": "@id"
+      },
+      "sportsActivityLocation": {
+         "@type": "@id"
+      },
+      "sportsEvent": {
+         "@type": "@id"
+      },
+      "sportsTeam": {
+         "@type": "@id"
+      },
+      "spouse": {
+         "@type": "@id"
+      },
+      "stage": {
+         "@type": "@id"
+      },
+      "stageAsNumber": {
+         "@type": "@id"
+      },
+      "starRating": {
+         "@type": "@id"
+      },
+      "steeringPosition": {
+         "@type": "@id"
+      },
+      "stepValue": {
+         "@type": "@id"
+      },
+      "streetAddress": {
+         "@type": "@id"
+      },
+      "strengthUnit": {
+         "@type": "@id"
+      },
+      "strengthValue": {
+         "@type": "@id"
+      },
+      "structuralClass": {
+         "@type": "@id"
+      },
+      "study": {
+         "@type": "@id"
+      },
+      "studyDesign": {
+         "@type": "@id"
+      },
+      "studyLocation": {
+         "@type": "@id"
+      },
+      "studySubject": {
+         "@type": "@id"
+      },
+      "subEvent": {
+         "@type": "@id"
+      },
+      "subEvents": {
+         "@type": "@id"
+      },
+      "subOrganization": {
+         "@type": "@id"
+      },
+      "subReservation": {
+         "@type": "@id"
+      },
+      "subStageSuffix": {
+         "@type": "@id"
+      },
+      "subStructure": {
+         "@type": "@id"
+      },
+      "subTest": {
+         "@type": "@id"
+      },
+      "subTrip": {
+         "@type": "@id"
+      },
+      "successorOf": {
+         "@type": "@id"
+      },
+      "sugarContent": {
+         "@type": "@id"
+      },
+      "suggestedAge": {
+         "@type": "@id"
+      },
+      "suggestedMaxAge": {
+         "@type": "@id"
+      },
+      "suggestedMeasurement": {
+         "@type": "@id"
+      },
+      "suggestedMinAge": {
+         "@type": "@id"
+      },
+      "suitableForDiet": {
+         "@type": "@id"
+      },
+      "superEvent": {
+         "@type": "@id"
+      },
+      "supply": {
+         "@type": "@id"
+      },
+      "supplyTo": {
+         "@type": "@id"
+      },
+      "supportingData": {
+         "@type": "@id"
+      },
+      "target": {
+         "@type": "@id"
+      },
+      "targetCollection": {
+         "@type": "@id"
+      },
+      "targetDescription": {
+         "@type": "@id"
+      },
+      "targetName": {
+         "@type": "@id"
+      },
+      "targetPlatform": {
+         "@type": "@id"
+      },
+      "targetPopulation": {
+         "@type": "@id"
+      },
+      "targetProduct": {
+         "@type": "@id"
+      },
+      "targetUrl": {
+         "@type": "@id"
+      },
+      "taxID": {
+         "@type": "@id"
+      },
+      "telephone": {
+         "@type": "@id"
+      },
+      "termCode": {
+         "@type": "@id"
+      },
+      "termDuration": {
+         "@type": "@id"
+      },
+      "termsPerYear": {
+         "@type": "@id"
+      },
+      "text": {
+         "@type": "@id"
+      },
+      "textValue": {
+         "@type": "@id"
+      },
+      "thumbnail": {
+         "@type": "@id"
+      },
+      "thumbnailUrl": {
+         "@type": "@id"
+      },
+      "tickerSymbol": {
+         "@type": "@id"
+      },
+      "ticketedSeat": {
+         "@type": "@id"
+      },
+      "ticketNumber": {
+         "@type": "@id"
+      },
+      "timeOfDay": {
+         "@type": "@id"
+      },
+      "timeRequired": {
+         "@type": "@id"
+      },
+      "timeToComplete": {
+         "@type": "@id"
+      },
+      "tissueSample": {
+         "@type": "@id"
+      },
+      "title": {
+         "@type": "@id"
+      },
+      "tocContinuation": {
+         "@type": "@id"
+      },
+      "tocEntry": {
+         "@type": "@id"
+      },
+      "toLocation": {
+         "@type": "@id"
+      },
+      "tongueWeight": {
+         "@type": "@id"
+      },
+      "tool": {
+         "@type": "@id"
+      },
+      "torque": {
+         "@type": "@id"
+      },
+      "totalJobOpenings": {
+         "@type": "@id"
+      },
+      "totalTime": {
+         "@type": "@id"
+      },
+      "tourBookingPage": {
+         "@type": "@id"
+      },
+      "trackingNumber": {
+         "@type": "@id"
+      },
+      "trackingUrl": {
+         "@type": "@id"
+      },
+      "tracks": {
+         "@type": "@id"
+      },
+      "trailer": {
+         "@type": "@id"
+      },
+      "trailerWeight": {
+         "@type": "@id"
+      },
+      "trainingSalary": {
+         "@type": "@id"
+      },
+      "trainName": {
+         "@type": "@id"
+      },
+      "trainNumber": {
+         "@type": "@id"
+      },
+      "transcript": {
+         "@type": "@id"
+      },
+      "transFatContent": {
+         "@type": "@id"
+      },
+      "transitTime": {
+         "@type": "@id"
+      },
+      "transitTimeLabel": {
+         "@type": "@id"
+      },
+      "translationOfWork": {
+         "@type": "@id"
+      },
+      "transmissionMethod": {
+         "@type": "@id"
+      },
+      "trialDesign": {
+         "@type": "@id"
+      },
+      "tributary": {
+         "@type": "@id"
+      },
+      "type": {
+         "@id": "rdf:type"
+      },
+      "typicalAgeRange": {
+         "@type": "@id"
+      },
+      "typicalTest": {
+         "@type": "@id"
+      },
+      "unitText": {
+         "@type": "@id"
+      },
+      "unsaturatedFatContent": {
+         "@type": "@id"
+      },
+      "uploadDate": {
+         "@type": "@id"
+      },
+      "upvoteCount": {
+         "@type": "@id"
+      },
+      "url": {
+         "@type": "@id"
+      },
+      "urlTemplate": {
+         "@type": "@id"
+      },
+      "usedToDiagnose": {
+         "@type": "@id"
+      },
+      "userInteractionCount": {
+         "@type": "@id"
+      },
+      "usesDevice": {
+         "@type": "@id"
+      },
+      "utterances": {
+         "@type": "@id"
+      },
+      "validFor": {
+         "@type": "@id"
+      },
+      "validIn": {
+         "@type": "@id"
+      },
+      "validUntil": {
+         "@type": "@id"
+      },
+      "valueAddedTaxIncluded": {
+         "@type": "@id"
+      },
+      "valueMaxLength": {
+         "@type": "@id"
+      },
+      "valueMinLength": {
+         "@type": "@id"
+      },
+      "valueName": {
+         "@type": "@id"
+      },
+      "valuePattern": {
+         "@type": "@id"
+      },
+      "valueRequired": {
+         "@type": "@id"
+      },
+      "variantCover": {
+         "@type": "@id"
+      },
+      "vatID": {
+         "@type": "@id"
+      },
+      "vehicleConfiguration": {
+         "@type": "@id"
+      },
+      "vehicleEngine": {
+         "@type": "@id"
+      },
+      "vehicleIdentificationNumber": {
+         "@type": "@id"
+      },
+      "vehicleInteriorColor": {
+         "@type": "@id"
+      },
+      "vehicleInteriorType": {
+         "@type": "@id"
+      },
+      "vehicleModelDate": {
+         "@type": "@id"
+      },
+      "videoFormat": {
+         "@type": "@id"
+      },
+      "videoFrameSize": {
+         "@type": "@id"
+      },
+      "videoQuality": {
+         "@type": "@id"
+      },
+      "warranty": {
+         "@type": "@id"
+      },
+      "warrantyPromise": {
+         "@type": "@id"
+      },
+      "warrantyScope": {
+         "@type": "@id"
+      },
+      "webCheckinTime": {
+         "@type": "@id"
+      },
+      "weight": {
+         "@type": "@id"
+      },
+      "weightTotal": {
+         "@type": "@id"
+      },
+      "wheelbase": {
+         "@type": "@id"
+      },
+      "winner": {
+         "@type": "@id"
+      },
+      "wordCount": {
+         "@type": "@id"
+      },
+      "workExample": {
+         "@type": "@id"
+      },
+      "workFeatured": {
+         "@type": "@id"
+      },
+      "workHours": {
+         "@type": "@id"
+      },
+      "workPerformed": {
+         "@type": "@id"
+      },
+      "workPresented": {
+         "@type": "@id"
+      },
+      "worksFor": {
+         "@type": "@id"
+      },
+      "workTranslation": {
+         "@type": "@id"
+      },
+      "xpath": {
+         "@type": "@id"
+      },
+      "yearBuilt": {
+         "@type": "@id"
+      },
+      "yearlyRevenue": {
+         "@type": "@id"
+      },
+      "yearsInOperation": {
+         "@type": "@id"
+      },
+      "105590001": {
+         "@id": "http://purl.bioontology.org/ontology/SNOMEDCT/105590001"
+      },
+      "116154003": {
+         "@id": "http://purl.bioontology.org/ontology/SNOMEDCT/116154003"
+      },
+      "277132007": {
+         "@id": "http://purl.bioontology.org/ontology/SNOMEDCT/277132007"
+      },
+      "387713003": {
+         "@id": "http://purl.bioontology.org/ontology/SNOMEDCT/387713003"
+      },
+      "3DModel": {
+         "@id": "https://schema.org/3DModel"
+      },
+      "410942007": {
+         "@id": "http://purl.bioontology.org/ontology/SNOMEDCT/410942007"
+      },
+      "50731006": {
+         "@id": "http://purl.bioontology.org/ontology/SNOMEDCT/50731006"
+      },
+      "51114001": {
+         "@id": "http://purl.bioontology.org/ontology/SNOMEDCT/51114001"
+      },
+      "63653004": {
+         "@id": "http://purl.bioontology.org/ontology/SNOMEDCT/63653004"
+      },
+      "Catalog": {
+         "@id": "http://www.w3.org/ns/dcat#Catalog"
+      },
+      "Distribution": {
+         "@id": "http://www.w3.org/ns/dcat#Distribution"
+      },
+      "Image": {
+         "@id": "http://purl.org/dc/dcmitype/Image"
+      },
+      "Issue": {
+         "@id": "http://purl.org/ontology/bibo/Issue"
+      }
+   }
+}

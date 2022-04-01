@@ -1,0 +1,46 @@
+{
+   "linkml": "https://w3id.org/linkml/",
+   "linkml_so": "https://w3id.org/linkml/schemaorg/",
+   "ns1": "http://example.org/UNKNOWN/ns1/",
+   "rdf": "http://example.org/UNKNOWN/rdf/",
+   "schema": "http://schema.org/",
+   "105590001": {
+      "@id": "http://purl.bioontology.org/ontology/SNOMEDCT/105590001"
+   },
+   "116154003": {
+      "@id": "http://purl.bioontology.org/ontology/SNOMEDCT/116154003"
+   },
+   "277132007": {
+      "@id": "http://purl.bioontology.org/ontology/SNOMEDCT/277132007"
+   },
+   "387713003": {
+      "@id": "http://purl.bioontology.org/ontology/SNOMEDCT/387713003"
+   },
+   "3DModel": {
+      "@id": "https://schema.org/3DModel"
+   },
+   "410942007": {
+      "@id": "http://purl.bioontology.org/ontology/SNOMEDCT/410942007"
+   },
+   "50731006": {
+      "@id": "http://purl.bioontology.org/ontology/SNOMEDCT/50731006"
+   },
+   "51114001": {
+      "@id": "http://purl.bioontology.org/ontology/SNOMEDCT/51114001"
+   },
+   "63653004": {
+      "@id": "http://purl.bioontology.org/ontology/SNOMEDCT/63653004"
+   },
+   "Catalog": {
+      "@id": "http://www.w3.org/ns/dcat#Catalog"
+   },
+   "Distribution": {
+      "@id": "http://www.w3.org/ns/dcat#Distribution"
+   },
+   "Image": {
+      "@id": "http://purl.org/dc/dcmitype/Image"
+   },
+   "Issue": {
+      "@id": "http://purl.org/ontology/bibo/Issue"
+   }
+}
