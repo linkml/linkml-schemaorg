@@ -1,19 +1,22 @@
 [tool.poetry]
-name = "linkml-project-template"
+name = "schemaorg"
 version = "0.1.0"
-description = "Enter description of your project here"
-authors = ["Mark A. Miller <mamillerpa@gmail.com>"]
-license = "MIT"
-include = ["README.md", "src/linkml", "project"]
+description = ""
+authors = ["cmungall <cjm@berkeleybop.org>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-linkml-runtime = "^1.1.24"
+linkml-runtime = ">=1.5.0"
 
-[tool.poetry.dev-dependencies]
-linkml = "^1.2.4"
-mkdocs-material = "^8.2.8"
+[tool.poetry.group.dev.dependencies]
+linkml = "^1.7.4"
+schema-automator = "*"
+mkdocs = "^1.2.3"
+mkdocs-material = "^8.2.4"
+mkdocs-mermaid2-plugin = "^0.6.0"
+jupyter = "^1.0.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
+
